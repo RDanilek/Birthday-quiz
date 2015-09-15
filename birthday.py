@@ -45,6 +45,7 @@ if (month == "October" and day == "31"):
     print("You were born on Halloween!")
 elif (month == todaymonth) and (day == int(todaydate)):
     print("Happy birthday!")
+    
 if (month== "December" or month==("January") or month==("February"):
     season = winter
 elif (month== "March" or month==("April") or month==("May"):
