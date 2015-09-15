@@ -43,7 +43,7 @@ print(todaydate)
 name = input("Hello, what is your name? ")
 yourmonth = input("Hi "+ name +", what was the name of the month you were born in? ")
 year = int(input("And what year were you born in, "+ name +"? "))
-day = input("And the day? ")
+day = int(input("And the day? "))
 if (yourmonth == "October" and day == "31"):
     print("You were born on Halloween!")
 elif (yourmonth == month) and (day == int(todaydate)):
