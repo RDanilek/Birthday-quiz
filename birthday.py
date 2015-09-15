@@ -56,13 +56,13 @@ elif (month== "September") or month==("October") or month==("November"):
     season = fall
     
 if (year<1980):
-    decade = stone age
+    decade = "Stone Age"
 elif ((year>=1980) and (year<=1989)):
-    decade = eighties
+    decade = "eighties"
 elif ((year>=1990) and (year<=1999)):
-    decade = nineties
+    decade = "nineties"
 elif (year>2000):
-    decade = two thousands
+    decade = "two thousands"
     
 print(name + ", you are a "+ season +" baby of the "+ decade+".")
 
