@@ -39,10 +39,28 @@ month = month_name[todaymonth]
 
 name = input("Hello, what is your name? ")
 month = input("Hi "+ name +", what was the name of the month you were born in? ")
-year = input("And what year were you born in, "+ name +"? ")
+year = int(input("And what year were you born in, "+ name +"? "))
 day = input("And the day? ")
 if (month == "October" and day == "31"):
     print("You were born on Halloween!")
-
-elif (month == todaymonth) and (day == todaydate):
+elif (month == todaymonth) and (day == int(todaydate)):
     print("Happy birthday!")
+if (month== "December" or month==("January") or month==("February"):
+    season = winter
+elif (month== "March" or month==("April") or month==("May"):
+    season = spring
+elif (month== "June" or month==("July") or month==("August"):
+    season = summer
+elif (month== "September" or month==("October") or month==("November"):
+    season = fall
+    
+if (year<1980):
+    decade = stone age
+elif ((year>=1980) and (year<=1989)):
+    decade = eighties
+elif ((year>=1990) and (year<=1999)):
+    decade = nineties
+elif (year>2000):
+    decade = two thousands
+    
+
