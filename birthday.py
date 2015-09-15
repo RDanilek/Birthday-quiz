@@ -37,7 +37,7 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 month = month_name[todaymonth]
 
-print(todaymonth)
+print(month)
 print(todaydate)
 
 name = input("Hello, what is your name? ")
