@@ -63,4 +63,5 @@ elif ((year>=1990) and (year<=1999)):
 elif (year>2000):
     decade = two thousands
     
+print(name + ", you are a "+ season +" baby of the "+ decade+".")
 
