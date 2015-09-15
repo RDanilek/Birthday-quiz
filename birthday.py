@@ -43,7 +43,7 @@ year = int(input("And what year were you born in, "+ name +"? "))
 day = int(input("And the day? "))
 if (yourmonth == "October" and day == "31"):
     print("You were born on Halloween!")
-elif (yourmonth == month) and (day == int(todaydate)):
+else (yourmonth == month) and (day == int(todaydate)):
     print("Happy birthday!")
     
 if (yourmonth== "December") or month==("January") or month==("February"):
@@ -52,7 +52,7 @@ elif (yourmonth== "March") or month==("April") or month==("May"):
     season = "spring"
 elif (yourmonth== "June") or month==("July") or month==("August"):
     season = "summer"
-elif (yourmonth== "September") or month==("October") or month==("November"):
+else (yourmonth== "September") or month==("October") or month==("November"):
     season = "fall"
     
 if (year<1980):
@@ -61,7 +61,7 @@ elif ((year>=1980) and (year<=1989)):
     decade = "eighties"
 elif ((year>=1990) and (year<=1999)):
     decade = "nineties"
-elif (year>2000):
+else (year>2000):
     decade = "two thousands"
     
 print(name + ", you are a "+ season +" baby of the "+ decade+".")
