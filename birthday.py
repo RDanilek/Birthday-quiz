@@ -47,13 +47,13 @@ elif (month == todaymonth) and (day == int(todaydate)):
     print("Happy birthday!")
     
 if (month== "December") or month==("January") or month==("February"):
-    season = winter
+    season = "winter"
 elif (month== "March") or month==("April") or month==("May"):
-    season = spring
+    season = "spring"
 elif (month== "June") or month==("July") or month==("August"):
-    season = summer
+    season = "summer"
 elif (month== "September") or month==("October") or month==("November"):
-    season = fall
+    season = "fall"
     
 if (year<1980):
     decade = "Stone Age"
