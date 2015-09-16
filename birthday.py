@@ -43,7 +43,7 @@ year = int(input("And what year were you born in, "+ name +"? "))
 day = int(input("And the day? "))
 if (yourmonth == "October" and day == "31"):
     print("You were born on Halloween!")
-elif (yourmonth == month) and (day == int(todaydate)):
+elif (yourmonth == month) and (day == todaydate):
     print("Happy birthday!")
     
 if (yourmonth== "December" or month=="January" or month=="February"):
