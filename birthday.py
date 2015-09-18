@@ -46,13 +46,13 @@ if (yourmonth == "October" and day == 31):
 elif (yourmonth == month) and (day == todaydate):
     print("Happy birthday!")
     
-if yourmonth== "December" or month=="January" or month=="February":
+if yourmonth== "December" or yourmonth=="January" or yourmonth=="February":
     season = "winter"
-elif yourmonth== "March" or month=="April" or month=="May":
+elif yourmonth== "March" or yourmonth=="April" or yourmonth=="May":
     season = "spring"
-elif yourmonth== "June" or month=="July" or month=="August":
+elif yourmonth== "June" or yourmonth=="July" or yourmonth=="August":
     season = "summer"
-elif yourmonth== "September" or month=="October" or month=="November":
+elif yourmonth== "September" or yourmonth=="October" or yourmonth=="November":
     season = "fall"
     
 if (year<1980):
