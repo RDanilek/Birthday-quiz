@@ -45,7 +45,8 @@ if (yourmonth == "October" and day == 31):
     print("You were born on Halloween!")
 elif (yourmonth == month) and (day == todaydate):
     print("Happy birthday!")
-    
+else print(name + ", you are a "+ season +" baby of the "+ decade+".")
+
 if yourmonth== "December" or yourmonth=="January" or yourmonth=="February":
     season = "winter"
 elif yourmonth== "March" or yourmonth=="April" or yourmonth=="May":
@@ -63,6 +64,6 @@ elif ((year>=1990) and (year<=1999)):
     decade = "nineties"
 elif (year>2000):
     decade = "two thousands"
-    
-print(name + ", you are a "+ season +" baby of the "+ decade+".")
+
+
 
